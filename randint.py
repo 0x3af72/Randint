@@ -1,0 +1,1 @@
+def randint(start, stop): global last; last = str(abs(hash(randint))) if not "last" in globals() else last; last = str(last)[7:]; res = int(start + (int(last) / 10 ** len(str(last)) * (stop - start))); last = abs(hash(str(last))); return res
